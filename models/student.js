@@ -74,6 +74,8 @@ async function getStudent(id) {
   console.log(student);
 }
 
+// aggregrate function 1
+
 async function userRegToday(className = 'science', society = 'theatre') {
   const classId = await ClassModel.findOne({ name: className });
   const societyId = await SocietyModel.findOne({ name: society });
@@ -99,6 +101,8 @@ async function userRegToday(className = 'science', society = 'theatre') {
   const num = result[0].name;
   return num;
 }
+
+// aggregrate function 2
 
 async function studentAbove15(society = 'swimming', className = ['arts', 'science']) {
   let classId = await ClassModel.find({
