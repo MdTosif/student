@@ -1,0 +1,21 @@
+Create a student schema with name, contact, subjects, class, society, year in mongo, such that : 
+1. each student can have multiple subjects and can be in a single class 
+2. Each student can be part of  multiple or none societies.
+(HINT:Dynamic fields to be added as per the user's 
+input: create a request updating the schema on input, 
+by entering society field)
+Thank you for your interest in our internship opening. 
+As a next step, we are expecting you to complete a short assignment.
+ 1. each student can have multiple subjects and can be in a single class 
+ 2. Each student can be part of  multiple or none societies.
+create a route for registering student, 
+student needs to be part of class, but being part of society is optional,
+each class can have multiple societies
+create three separate schema, society, class, student. 
+A student can be in many classes or one, a student can be in no society or many. 
+so hierarchy is class==> society==> student, where society is dynamic(ie 0 to many)
+Aggregate queries:
+ no.of students who have registered today for theatre society from class science
+ 2. students above the age 15, who have registered for swimming society in arts and science class
+Please share your mongo and node projects, or directly add them to your GitHub
+Submission deadline: 07 August, 2021
